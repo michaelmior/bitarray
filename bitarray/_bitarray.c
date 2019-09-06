@@ -3119,7 +3119,7 @@ subset(PyObject *self, PyObject *args)
 {
     PyObject *a, *b;
     Py_ssize_t i;
-    unsigned char c;
+    char c;
 
     if (!PyArg_ParseTuple(args, "OO:subset", &a, &b))
         return NULL;
